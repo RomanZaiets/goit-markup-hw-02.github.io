@@ -1,0 +1,85 @@
+body{
+    font-family: 'roboto', sans-serif;
+    font-size: 16px;
+    color: #2E2F42;
+}.header-navigation {
+}
+.header-logo {
+font-family: 'Raleway';
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color:  #4D5AE5;
+}
+.header-logo-text{
+    color:#2E2F42;
+}
+.header-list {
+    
+}
+.header-item {
+}
+.header-link {
+font-style: normal;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+.addres {
+}
+.addres-list {
+}
+.addres-item {
+}
+.addres-mail, .addres-tel {
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+/* --------MAIN------------ */
+.main {
+}
+/* --------HERO------------ */
+.hero {
+}
+.hero-title {
+font-weight: 700;
+font-size: 56px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+
+}
+.hero-button {
+width: 169px;
+height: 56px;
+left: 636px;
+top: 428px;
+background: #4D5AE5;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+font-family: inherit;
+font-weight: 500;
+line-height: 24px;
+font-size: 16px;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+}
+
+/*------LIST------------ */
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+.section {
+}
