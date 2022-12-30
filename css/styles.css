@@ -2,7 +2,42 @@ body{
     font-family: 'roboto', sans-serif;
     font-size: 16px;
     color: #2E2F42;
-}.header-navigation {
+    }
+h2{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+}
+
+h3{
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+p{
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+
+}
+
+
+    /*--------LIST------------ */
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+/* ---------HEADER----------- */
+.header{
+
+}
+.header-navigation {
 }
 .header-logo {
 font-family: 'Raleway';
@@ -13,22 +48,25 @@ display: flex;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color:  #4D5AE5;
+color: #2E2F42;
 }
-.header-logo-text{
-    color:#2E2F42;
+.header-logo:hover, 
+.header-logo:focus{
+    color: #4D5AE5;
+}
+
+.accent{
+    color:  #4D5AE5;
 }
 .header-list {
     
 }
-.header-item {
-}
+
 .header-link {
-font-style: normal;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
-}
+    }
 .addres {
 }
 .addres-list {
@@ -41,22 +79,30 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
+.header-list .header-link:hover, 
+.header-list .header-link:focus,
+.addres-mail:hover, .addres-mail:focus,   
+.addres-tel:hover, .addres-tel:focus{
+    color: #4D5AE5;  
+}
+
 /* --------MAIN------------ */
 .main {
 }
 /* --------HERO------------ */
 .hero {
+    background: #2E2F42;
 }
 .hero-title {
 font-weight: 700;
 font-size: 56px;
-line-height: 60px;
+line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
 color: #FFFFFF;
 
 }
-.hero-button {
+.hero-btn {
 width: 169px;
 height: 56px;
 left: 636px;
@@ -66,20 +112,63 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 font-family: inherit;
 font-weight: 500;
-line-height: 24px;
+line-height: 1.5;
 font-size: 16px;
 display: flex;
 align-items: center;
 letter-spacing: 0.04em;
 color: #FFFFFF;
+cursor: pointer;
+}
+.hero-btn:focus, .hero-btn:hover {
+background-color: #404BBF;
+} 
+ /*------------ ABOUT---------- */
+.about {
+}
+.about-title {
+}
+.about-list {
+}
+.about-item {
+}
+.about-subtitle {
+}
+.about-text {
+}
+/* --------DOIN------------ */
+.doing {
+}
+.doing-title {
+}
+.doing-list {
+}
+.doing-item {
+}
+/* -------------TEAM------------ */
+.team {
+}
+.team-title {
+}
+.team-list {
+}
+.team-item {
+}
+.team-subtitle {
+}
+.team-text {
 }
 
-/*------LIST------------ */
-.list{
-    list-style: none;
+/* ---------PORTFOLIO------------ */
+.portfolio {
 }
-.link{
-    text-decoration: none;
+.portfolio-list {
 }
-.section {
+.portfolio-item {
+}
+.portfolio-btn {
+}
+.portfolio-subtitle {
+}
+.portfolio-text {
 }
