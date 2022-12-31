@@ -1,30 +1,28 @@
-body{
+    body{
     font-family: 'roboto', sans-serif;
     font-size: 16px;
     color: #2E2F42;
     }
-h2{
-font-weight: 700;
-font-size: 36px;
-line-height: 1.11;
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-}
-h3{
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-}
-p{
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
-}
-button {
-    background: #4D5AE5;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    }
+    h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    }
+    p{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    }
+    button {
     border-radius: 4px;
     font-family: inherit;
     font-weight: 500;
@@ -33,163 +31,159 @@ button {
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
     cursor: pointer;
     }
-.list{ 
+    button:focus, button:hover {
+    background-color: #404BBF;
+    color: #FFFFFF;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    }
+    .list{ 
     list-style: none;
-}
-.link{
+    }
+    .link{
     text-decoration: none;
-}
-
-/* ---------HEADER----------- */
-.header{
-
-}
-.header-navigation {
-}
-.header-logo {
-font-family: 'Raleway';
-font-weight: 800;
-font-size: 18px;
-line-height: 1.33;
-display: flex;
-align-items: center;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #2E2F42;
-}
-.header-logo:hover, 
-.header-logo:focus{
-    color: #4D5AE5;
-}
-
-.accent{
-    color:  #4D5AE5;
-}
-.header-list {
-    
-}
-
-.header-link {
-font-weight: 500;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #2E2F42;    }
-.addres {
-}
-.addres-list {
-}
-.addres-item {
-}
-.addres-mail, .addres-tel {
-font-weight: 400;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
-}
-.header-list .header-link:hover, 
-.header-list .header-link:focus,
-.addres-mail:hover, .addres-mail:focus,   
-.addres-tel:hover, .addres-tel:focus,
-.footer-logo:hover, .footer-logo:focus
-{
-    color: #4D5AE5;  
-}
-
-/* --------MAIN------------ */
-.main {
-}
-/* --------HERO------------ */
-.hero {
-    background: #2E2F42;
-}
-.hero-btn{
-}
-.hero-title {
-font-weight: 700;
-font-size: 56px;
-line-height: 1.07;
-text-align: center;
-letter-spacing: 0.02em;
-color: #FFFFFF;
-
-}
-
-button:focus, button:hover {
-background-color: #404BBF;
-} 
- /*------------ ABOUT---------- */
-.about {
-}
-.about-title {
-}
-.about-list {
-}
-.about-item {
-}
-.about-subtitle {
-}
-.about-text {
-}
-/* --------DOIN------------ */
-.doing {
-}
-.doing-title {
-}
-.doing-list {
-}
-.doing-item {
-}
-/* -------------TEAM------------ */
-.team {
-    background: #F4F4FD;
-}
-.team-title {
-}
-.team-list {
-}
-.team-item {
-}
-.team-subtitle {
-}
-.team-text {
-}
-
-/* ---------PORTFOLIO------------ */
-.portfolio {
-}
-.portfolio-list {
-}
-.portfolio-item {
-}
-.portfolio-btn{
-
-}
-.portfolio-subtitle {
-}
-.portfolio-text {
-}
-/* ---------FOOTER--------- */
-.footer{
-    background-color: #2E2F42;
-
-}
-.footer-logo {
+    }
+    /* ---------HEADER----------- */
+    .header{
+    }
+    .header-navigation {
+    }
+    .header-logo {
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.33;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2E2F42;
+    }
+    .header-logo:hover, 
+    .header-logo:focus{
+    color: #4D5AE5;
+    }
+    .accent{
+    color:  #4D5AE5;
+    }
+    .header-list {
+    
+    }
+    .header-link {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;    }
+    .addres {
+    }
+    .addres-list {
+    }
+    .addres-item {
+    }
+    .addres-mail, .addres-tel {
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    }
+    .header-list .header-link:hover, 
+    .header-list .header-link:focus,
+    .addres-mail:hover, .addres-mail:focus,   
+    .addres-tel:hover, .addres-tel:focus,
+    .footer-logo:hover, .footer-logo:focus
+    {
+    color: #4D5AE5;  
+    }
+    /* --------MAIN------------ */
+    .main {
+    }
+    /* --------HERO------------ */
+    .hero {
+    background: #2E2F42;
+    }
+    .hero-btn{
+    background: #4D5AE5;
+    color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    }
+    .hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    }
+    /*------------ ABOUT---------- */
+    .about {
+    }
+    .about-title {
+    }
+    .about-list {
+    }
+    .about-item {
+    }
+    .about-subtitle {
+    }
+    .about-text {
+    }
+    /* --------DOIN------------ */
+    .doing {
+    }
+    .doing-title {
+    }
+    .doing-list {
+    }
+    .doing-item {
+    }
+    /* -------------TEAM------------ */
+    .team {
+    background: #F4F4FD;
+    }
+    .team-title {
+    }
+    .team-list {
+    }
+    .team-item {
+    }
+    .team-subtitle {
+    }
+    .team-text {
+    }
+    /* ---------PORTFOLIO------------ */
+    .portfolio {
+    }
+    .portfolio-list {
+    }
+    .portfolio-item {
+    }
+    .portfolio-btn{
+    background: #F4F4FD; 
+    color: #4D5AE5;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;}
+    .portfolio-text {
+    }
+    /* ---------FOOTER--------- */
+    .footer{
+    background-color: #2E2F42;
+    }
+    .footer-logo {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #F4F4FD;
-}
-.footer-text {
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #E7E9FC;
-}
+    }
+    .footer-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #E7E9FC;
+    }
